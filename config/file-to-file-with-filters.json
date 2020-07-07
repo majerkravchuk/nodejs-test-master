@@ -1,0 +1,19 @@
+{
+    "source": {
+        "type": "file",
+        "path": "data/from.txt"
+    },
+    "target": {
+        "type": "file",
+        "path": "data/to-with-filters.txt"
+    },
+    "parser": {
+        "types": [
+            "ERROR",
+            "WARNING"
+        ]
+    },
+    "expected": {
+        "path": "data/to-with-filters-expected.txt"
+    }
+}

@@ -6,5 +6,8 @@
     "target": {
         "type": "file",
         "path": "data/to.txt"
+    },
+    "expected": {
+        "path": "data/to-expected.txt"
     }
 }
