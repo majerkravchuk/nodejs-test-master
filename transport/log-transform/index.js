@@ -22,12 +22,9 @@ class LogTransform extends Transform {
   }
 
   push(data) {
-    if (_.isObject(data)) {
-      if (this._types && !this._types.includes(data.type)) return;
-      return super.push(JSON.stringify(data) + '\n');
-    }
-
-    super.push(data);
+    if (!_.isObject(data)) return super.push(data);
+    if (this._types && !this._types.includes(data.type)) return;
+    super.push(JSON.stringify(data) + '\n');
   }
 
   _transform(chunk, encoding, done) {
@@ -36,7 +33,7 @@ class LogTransform extends Transform {
     if (/\n/.test(this._lineBuffer)) {
       const lines = this._lineBuffer.split(/\n/);
 
-      if (lines.length > 1 && !!_.last(lines)) {
+      if (lines.length > 1 && _.last(lines)) {
         this._lineBuffer = lines.pop();
       }
 

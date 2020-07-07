@@ -4,7 +4,7 @@
   "description": "Playkot test task for node.js developers",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "jest"
   },
   "keywords": [
     "test",
@@ -15,5 +15,8 @@
   "dependencies": {
     "lodash": "^4.17.15",
     "nsyslog-parser": "^0.9.6"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
   }
 }
