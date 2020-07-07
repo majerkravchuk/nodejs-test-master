@@ -1,5 +1,7 @@
 # Обновлено
-Для тестов используется [Jest](https://jestjs.io)
+1. Реализован парсер логов в виде Transform Stream
+2. Из дополнительных заданий реализована фильтрация по типу.
+3. Покрытие тестами. Используется [Jest](https://jestjs.io)
 ```shell script
 npm install
 npm run test
