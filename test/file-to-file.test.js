@@ -28,7 +28,7 @@ const promisefyPipeline = (source, parser, target) => {
 
 describe('file-to-file', () => {
   describe('reads data from source.txt and writes parsed logs into output file', () => {
-    it('translates logs to the desired format', async () => {
+    it('transforms logs to the desired format', async () => {
       const promise = promisefyPipeline(
         new Source({
           type: 'file',

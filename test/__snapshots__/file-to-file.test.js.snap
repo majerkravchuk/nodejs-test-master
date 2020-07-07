@@ -9,7 +9,7 @@ exports[`file-to-file reads data from source.txt and writes parsed logs into out
 "
 `;
 
-exports[`file-to-file reads data from source.txt and writes parsed logs into output file translates logs to the desired format 1`] = `
+exports[`file-to-file reads data from source.txt and writes parsed logs into output file transforms logs to the desired format 1`] = `
 "{\\"logsource\\":\\"client\\",\\"env\\":\\"prod\\",\\"type\\":\\"ERROR\\",\\"timestamp\\":\\"2018-02-09T11:40:40.000Z\\",\\"message\\":\\"An application event log entry..\\",\\"_data\\":{\\"user_id\\":1}}
 {\\"logsource\\":\\"server\\",\\"program\\":\\"app\\",\\"host\\":\\"127.0.0.1\\",\\"type\\":\\"ERROR\\",\\"timestamp\\":\\"2003-10-11T22:14:15.003Z\\",\\"message\\":\\"ERROR\\",\\"_data\\":{}}
 {\\"logsource\\":\\"server\\",\\"program\\":\\"app\\",\\"env\\":\\"prod\\",\\"type\\":\\"WARNING\\",\\"message\\":\\"WARNING\\",\\"_data\\":{\\"info\\":{\\"some\\":\\"data\\"},\\"data\\":{\\"some\\":\\"data\\"}}}

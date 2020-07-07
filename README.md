@@ -1,5 +1,5 @@
 # Обновлено
-Для запуска тестов используется [Jest](https://jestjs.io)
+Для тестов используется [Jest](https://jestjs.io)
 ```shell script
 npm install
 npm run test
