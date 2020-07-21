@@ -13,7 +13,7 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "nsyslog-parser": "^0.9.6"
   },
   "devDependencies": {
